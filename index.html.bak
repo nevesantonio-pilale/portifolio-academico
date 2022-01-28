@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang= "PT-PT">
+	<head>
+		<meta charset= "UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Link css -->
+		<link rel= "stylesheet" type= "text/css" href="css/style.css"/>
+		
+		<!-- Link de google fonts 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2? família=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+		-->
+		<!-- Link para icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<title> Portifólio acadêmico </title>
+	</head>
+	<body>
+	
+		<nav>
+			<div class= "container">
+				<div class= "nav-bar">
+					<div class= "logo">
+						<div class= "img-logo">
+							<img src= "img/icon-logo.svg" alt= "icon de logo"/>
+						<div>
+						<div class= "titulo-logo">
+							<h3> histórico academico </h3>
+						</div>
+					</div>
+					
+					<div class= "menu-nav">
+						<ul>
+							<li> <a href= "#"> inicio </a></li>
+							<li> <a href= "#"> neves </a></li>
+							<li> <a href= "#"> projectos academicos </a></li>
+							<li> <a href= "#"> contactos </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<header>
+			cabecalho
+		</header>
+		
+		<main>
+			conteudo principal
+		</main>
+		
+		<footer>
+			Rotapé
+		</footer>
+		
+	</body>
+</html>
