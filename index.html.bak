@@ -25,7 +25,7 @@
 					<div class= "logo">
 						<div class= "img-logo">
 							<img src= "img/icon-logo.svg" alt= "icon de logo"/>
-						<div>
+						</div>
 						<div class= "titulo-logo">
 							<h3> histórico academico </h3>
 						</div>
@@ -44,7 +44,21 @@
 		</nav>
 		
 		<header>
-			cabecalho
+
+			<div class= "slide-show">
+				<ul class= "list-slide">
+					<li> <img src= "img/fundo1.jpg"/></li>
+					<li> <img src= "img/fundo2.jpg"/></li>
+					<li> <img src= "img/fundo3.jpg"/></li>
+					<li> <img src= "img/fundo4.jpg"/></li>
+				</ul>
+			</div>
+			
+			<div class= "banner">
+				<h1> portfólio acadêmico </h1>
+				<p> neves antónio </p>
+				<p> desenvolvedor <span> web </span></p>
+			</div>
 		</header>
 		
 		<main>

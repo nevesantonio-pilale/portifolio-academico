@@ -16,6 +16,7 @@ html {
 nav {
 	max-width: 100%;
 	padding: 20px;
+	border-bottom: 0.2px solid #343c44
 }
 
 .container {
@@ -34,7 +35,7 @@ nav {
 }
 
 .logo {
-	width: 200px;
+	width: 300px;
 	height: 60px;
 	display: flex;
 	align-items: center;
@@ -43,16 +44,18 @@ nav {
 
 .img-logo {
 	width: 100%;
-	height: 60px
+	height: 60px;
 }
 
 
 .titulo-logo {
-	width: 100%;
+	width: 750px;
+	margin-left: 5px;
+	padding: 10px;
 }
 
 .logo h3 {
-	color: #444444;
+	color: #2c3838;
 	text-transform: capitalize;
 }
 
@@ -83,4 +86,83 @@ nav {
 	text-decoration: none;
 	font-size: 14pt;
 	text-transform: capitalize;
+	color: #2c3838;
+	transition: .8s;
 }
+
+
+.menu-nav ul li a:hover {
+	color: #fa9d31;
+}
+
+/* Estilização da area de cabeçalho */
+
+header {
+	max-width: 100%;
+	height: 50vh;
+}
+
+
+.slide-show {
+	width: 95%;
+	height: 50vh;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.slide-show ul {
+	width: 300%;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	transition: 2s;
+	
+	animation: slides 20s infinite;
+}
+
+
+.slide-show ul li {
+	width: 100%;
+	list-style: none;
+}
+
+li img {
+	width: 100%;
+	height: 50vh;
+	/*position: relative*/
+}
+
+
+.banner {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+
+
+.banner h1 {
+	font-size: 3rem;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-shadow: 2px 2px #444;
+}
+
+
+.banner p {
+	font-size: 16pt;
+}
+
+@keyframes slides {
+	
+	0% {margin-left: 0;}
+	40% {margin-left: 0;}
+	
+	45% {margin-left: -100%;}
+	70% {margin-left: -100%;}
+	
+	75% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+} 
+
+
