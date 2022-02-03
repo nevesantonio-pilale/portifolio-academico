@@ -11,12 +11,15 @@ html {
 	position: relative;
 }
 
+body {
+	background-color: #1e192c;
+}
+
 /* Estilização da area de Navegação */
 
 nav {
 	max-width: 100%;
 	padding: 20px;
-	border-bottom: 0.2px solid #343c44
 }
 
 .container {
@@ -35,7 +38,7 @@ nav {
 }
 
 .logo {
-	width: 300px;
+	width: 350px;
 	height: 60px;
 	display: flex;
 	align-items: center;
@@ -55,8 +58,9 @@ nav {
 }
 
 .logo h3 {
-	color: #2c3838;
+	color: #ffffff;
 	text-transform: capitalize;
+	letter-spacing: .1rem;
 }
 
 .logo img {
@@ -65,7 +69,7 @@ nav {
 }
 
 
-*.menu-nav {
+.menu-nav {
 	margin: 5px;
 }
 
@@ -86,8 +90,9 @@ nav {
 	text-decoration: none;
 	font-size: 14pt;
 	text-transform: capitalize;
-	color: #2c3838;
+	color: #ffffff;
 	transition: .8s;
+	letter-spacing: .1rem;
 }
 
 
@@ -99,7 +104,7 @@ nav {
 
 header {
 	max-width: 100%;
-	height: 50vh;
+	height: 100vh;
 }
 
 
@@ -107,6 +112,7 @@ header {
 	width: 95%;
 	height: 50vh;
 	margin: auto;
+	background-color: black;
 	overflow: hidden;
 }
 
@@ -115,8 +121,10 @@ header {
 	width: 300%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	padding: 0;
 	transition: 2s;
+	opacity: 50%;
 	
 	animation: slides 20s infinite;
 }
@@ -130,19 +138,28 @@ header {
 li img {
 	width: 100%;
 	height: 50vh;
-	/*position: relative*/
 }
 
 
 .banner {
 	position: absolute;
-	top: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	top: 1%;
 	left: 20%;
 }
 
 
+header .container {
+	margin-top: 200px;
+}
+
+
 .banner h1 {
-	font-size: 3rem;
+	font-size: 2.5rem;
+	letter-spacing: .2rem;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-shadow: 2px 2px #444;
@@ -150,8 +167,211 @@ li img {
 
 
 .banner p {
-	font-size: 24pt;
+	font-size: 18pt;
+	color: #ffffff;
+	padding: 10px;
+	letter-spacing: .2rem;
+	text-transform: capitalize;
 }
+
+.banner p span {
+	color: #fa9d31;
+	font-size: 30pt;
+}
+
+
+.saber-mais {
+	margin-top: 100px;
+	margin-left: 300px;
+}
+
+
+.saber-mais button {
+	width: 150px;
+	height: 40px;
+	border: none;
+	background-color: #fa9d31;
+	font-size: 14pt;
+	color: #ffffff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+/* Estilização da area de conteudo principal */
+
+.redes-sociais {
+	width: 80%;
+	position: absolute;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: rows;
+	align-items: center;
+	justify-content: center;
+} 
+
+
+.redes-sociais a {
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 30px;
+	color: #fa9d31;
+	transition: 2s;
+}
+
+.redes {
+	margin-left: 10px;
+}
+
+
+.redes:hover {
+	border: 1px solid #1e192c;
+}
+
+.redes-sociais i {
+	text-decoration: none;
+	font-size: 26px;
+	padding-right: 10px;
+	color: #fa9d31;
+}
+
+
+.redes-sociais a:last-child {
+	margin: 0;
+}
+
+/* Estilização de sessao historico do curso */
+
+.time-line-container {
+	position: relative;
+	width: 50%;
+	height: 3000px;
+	margin: auto;
+}
+
+
+
+.time-line:before {
+	
+	content: '';
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 6px;
+	height: 100%;
+	left: 50%;
+}
+
+
+.time-line ul:nth-child (odd).time {
+	content: '';
+	position: absolute;
+	background-color: red;
+	right: -100px;
+}
+
+
+.cabecalho-time-line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.cabecalho-time-line h2 {
+	font-size: 24pt;
+	padding: 20px;
+	color: #FFFFFF;
+}
+
+
+.cabecalho-time-line h5 {
+	font-size: 14pt;
+	color: #FFFFFF;
+	margin-bottom: 105px;
+}
+
+
+.time-line {
+	width: 100%;
+	padding: 20px;
+}
+
+
+.time-line ul {
+	list-style: none;
+	background-color: #292537;
+	width: 350px;
+	box-shadow: black 0px 5px 15px;
+	border-radius: 5px;
+}
+
+
+.time-line ul li {
+	padding: 20px;
+}
+
+
+.time-line ul:nth-child(odd) {
+	float: left;
+	clear: right;
+}
+
+
+
+.time-line ul:nth-child(even) {
+	float: right;
+	clear: left;
+}
+
+
+
+.titulo-time-line {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	padding: 10px;
+}
+
+
+.titulo-time-line h3, h4 {
+	color: #FFFFFF;
+}
+
+
+.time-line h4 {
+	font-size: 16pt;
+}
+
+
+.time-line ul li h2 {
+	color: #fa9d31;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+
+.time-line ul li .titulo-baixo {
+	margin-top: 30px;
+}
+
+
+
+.time-line ul li ol li:last-child {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 10px;
+}
+
+
+
+.time-line ul li ol li {
+	padding: 5px;
+	color: #FFFFFF;
+	list-style: none;
+}
+
+
 
 @keyframes slides {
 	
