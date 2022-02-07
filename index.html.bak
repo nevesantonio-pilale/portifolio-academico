@@ -98,7 +98,7 @@
 				<ul>
 					<li>
 						<div class= "titulo-time-line">
-							<h2> 1º ano - 2020 </h2>
+							<h2> 1º ano - 2020/2021 </h2>
 							<h3> 1º semestre </h3>
 						</div>
 						<ol>
@@ -111,8 +111,8 @@
 						</ol>
 								
 						<div class= "titulo-time-line">
-							<h2 class= "titulo-baixo"> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+							<h2 class= "titulo-baixo"> 1º ano - 2020/2021 </h2>
+							<h3> 2º semestre </h3>
 						</div>
 						<ol>
 							<h4> cadeiras </h4>
@@ -128,7 +128,7 @@
 				<ul>
 					<li>
 						<div class= "titulo-time-line">
-							<h2> 1º ano - 2020 </h2>
+							<h2> 2º ano - 2021/2022 </h2>
 							<h3> 1º semestre </h3>
 						</div>
 						<ol>
@@ -141,8 +141,8 @@
 						</ol>
 								
 						<div class= "titulo-time-line">
-							<h2 class= "titulo-baixo"> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+							<h2 class= "titulo-baixo"> 2º ano - 2021/2022 </h2>
+							<h3> 2º semestre </h3>
 						</div>
 						<ol>
 							<h4> cadeiras </h4>
@@ -158,7 +158,7 @@
 				<ul>
 					<li>
 						<div class= "titulo-time-line">
-							<h2> 1º ano - 2020 </h2>
+							<h2> 3º ano - 2022/2023 </h2>
 							<h3> 1º semestre </h3>
 						</div>
 						<ol>
@@ -171,8 +171,8 @@
 						</ol>
 								
 						<div class= "titulo-time-line">
-							<h2 class= "titulo-baixo"> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+							<h2 class= "titulo-baixo"> 3º ano - 2022/2023 </h2>
+							<h3> 2º semestre </h3>
 						</div>
 						<ol>
 							<h4> cadeiras </h4>
@@ -188,7 +188,7 @@
 				<ul>
 					<li>
 						<div class= "titulo-time-line">
-							<h2> 1º ano - 2020 </h2>
+							<h2> 4º ano - 2023/2024 </h2>
 							<h3> 1º semestre </h3>
 						</div>
 						<ol>
@@ -201,8 +201,8 @@
 						</ol>
 								
 						<div class= "titulo-time-line">
-							<h2 class= "titulo-baixo"> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+							<h2 class= "titulo-baixo"> 4º ano - 2023/2024 </h2>
+							<h3> 2º semestre </h3>
 						</div>
 						<ol>
 							<h4> cadeiras </h4>
@@ -218,7 +218,7 @@
 				<ul>
 					<li>
 						<div class= "titulo-time-line">
-							<h2> 1º ano - 2020 </h2>
+							<h2> 5º ano - 2024/2025 </h2>
 							<h3> 1º semestre </h3>
 						</div>
 						<ol>
@@ -231,8 +231,8 @@
 						</ol>
 								
 						<div class= "titulo-time-line">
-							<h2 class= "titulo-baixo"> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+							<h2 class= "titulo-baixo"> 5º ano - 2024/2025 </h2>
+							<h3> 2º semestre </h3>
 						</div>
 						<ol>
 							<h4> cadeiras </h4>
@@ -244,36 +244,43 @@
 						</ol>
 					</li>		
 				</ul>
-				
-				<ul>
-					<li>
-						<div class= "titulo-time-line">
-							<h2> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+			</div>
+		</section>
+		
+		<section class= "aprendisagem-container">
+			<div class= "container">
+				<h2> desenvolvimento <span> web </span> </h2>
+				<div class= "cards-container">
+					<div class= "cards">
+						<div class= "header-cards">
+							<img src= "img/icon-html-5.svg" alt= "logo html"/>
+							<h3 class= "title-card"> html </h3>
 						</div>
-						<ol>
-							<h4> cadeiras </h4>
-							<li> Álgebra Linear </li>
-							<li> Interacção Homem - Máquina </li>
-							<li> Métodos de Estudo e Investigação Científica </li>
-							<li> Princípios de Programação </li>
-							<li> Sistemas de Computação </li>
-						</ol>
-								
-						<div class= "titulo-time-line">
-							<h2 class= "titulo-baixo"> 1º ano - 2020 </h2>
-							<h3> 1º semestre </h3>
+						<div class= "content-cards">
+							barra de progresso
 						</div>
-						<ol>
-							<h4> cadeiras </h4>
-							<li> Álgebra Linear </li>
-							<li> Interacção Homem - Máquina </li>
-							<li> Métodos de Estudo e Investigação Científica </li>
-							<li> Princípios de Programação </li>
-							<li> Sistemas de Computação </li>
-						</ol>
-					</li>		
-				</ul>
+					</div>
+						
+					<div class= "cards">
+						<div class= "header-cards">
+							<img src= "img/icon-css3.svg" alt= "logo css"/>
+							<h3 class= "title-card"> css </h3>
+						</div>
+						<div class= "content-cards">
+							barra de progresso
+						</div>
+					</div>
+						
+					<div class= "cards">
+						<div class= "header-cards">
+							<img src= "img/icon-logotipo-javascript.ico" alt= "logo javascript"/>
+							<h3 class= "title-card"> JavaScript </h3>
+						</div>
+						<div class= "content-cards">
+							barra de progresso
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		

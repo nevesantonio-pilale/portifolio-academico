@@ -108,6 +108,7 @@ header {
 }
 
 
+
 .slide-show {
 	width: 95%;
 	height: 50vh;
@@ -147,7 +148,7 @@ li img {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	top: 1%;
+	top: 5%;
 	left: 20%;
 }
 
@@ -260,14 +261,11 @@ header .container {
 	width: 6px;
 	height: 100%;
 	left: 50%;
+	clear-boch:
 }
 
 
-.time-line ul:nth-child (odd).time {
-	content: '';
-	position: absolute;
-	background-color: red;
-}
+
 
 
 .cabecalho-time-line {
@@ -370,7 +368,56 @@ header .container {
 	list-style: none;
 }
 
+/* Estilização da sessao de tecnologias aprendidas */
 
+.aprendisagem-container .container {
+	width: 100%;
+	height: 500px;
+	margin: 350px auto;
+}
+
+
+.aprendisagem-container .container h2 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 60px;
+	text-transform: capitalize;
+}
+
+
+
+
+.aprendisagem-container .container h2 span {
+	color: #fa9d31;
+	font-size: 24pt;
+}
+
+
+.cards-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.cards {
+	width: 20%;
+	margin: 10px;
+}
+
+
+.header-cards {
+	width: 100%;
+	height: 250px;
+}
+
+
+
+.header-cards img {
+	width: 100%;
+	height: 100%;
+	position: flex;
+}
 
 @keyframes slides {
 	
