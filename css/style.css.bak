@@ -148,7 +148,7 @@ li img {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	top: 5%;
+	top: 4%;
 	left: 20%;
 }
 
@@ -373,18 +373,25 @@ header .container {
 .aprendisagem-container .container {
 	width: 100%;
 	height: 500px;
-	margin: 350px auto;
+	margin: 350px auto 60px 0;
 }
 
 
 .aprendisagem-container .container h2 {
 	color: #FFFFFF;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	text-transform: capitalize;
 }
 
 
+
+.container h5 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
 
 
 .aprendisagem-container .container h2 span {
@@ -401,14 +408,24 @@ header .container {
 
 
 .cards {
-	width: 20%;
+	width: 15%;
 	margin: 10px;
+	cursor: pointer;
+	transition: .5s;
+	box-shadow: black 0px 10px 15px;
+}
+
+
+.cards:hover {
+	background-color: #cccc;
+	border-radius: 5px 5px 0 0;
+	opacity: 75%;
 }
 
 
 .header-cards {
 	width: 100%;
-	height: 250px;
+	height: 200px;
 }
 
 
@@ -417,6 +434,229 @@ header .container {
 	width: 100%;
 	height: 100%;
 	position: flex;
+	flex-wrap: wrap;
+	border-radius: 5px 5px 0 0;
+}
+
+
+
+.content-cards {
+	height: 100px;
+	background-color: #FFFFFF;
+	padding: 10PX;
+	border-radius: 0 0 5px 5px;
+}
+
+
+.barra-progresso {
+	width: 90%;
+	border: 1px solid #444;
+	height: 20px;
+	margin-top: 15px;
+}
+
+
+.html {
+	height: 100%;
+	width: 95%;
+	background-color: #e43d13;
+}
+
+
+.css {
+	height: 100%;
+	width: 80%;
+	background-color: #015fa5;
+}
+
+
+
+.js {
+	height: 100%;
+	width: 50%;
+	background-color: #ff7f00;
+}
+
+
+.title-card {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+
+.html p, .css p, .js p {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.back-end {
+	width: 100%;
+	height: 200px;
+	margin: 50px auto;
+}
+
+
+.back-end h2, h5 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.back-end h2 span {
+	color: #fa9d31;
+	font-size: 24pt;
+}
+
+
+.back-end h5 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+.php {
+	height: 100%;
+	width: 45%;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #1e192c;
+}
+
+/* Estilização da sessao de sobre autor */
+.descicao-autor {
+	width: 100%;
+	margin: 400px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.cabecalho-descricao {
+	position: relative;
+} 
+
+
+
+.cabecalho-descricao h2 {
+	color: #FFFFFF;
+	text-transform: capitalize;
+	padding: 10px;
+	font-size: 20pt;
+}
+
+
+.cabecalho-descricao h5 {
+	color: #fa9d31;
+	text-transform: capitalize;
+	padding: 10px;
+	font-size: 18pt;
+	text-align: left;
+}
+
+
+.cabecalho-descricao p {
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: justify;
+	font-size: 14pt;
+}
+
+
+
+/* Estilização da area de contactos */
+#contato {
+	width: 100%;
+	margin: 500px 0;
+}
+
+
+.titulo-contacto {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: #fa9d31;
+}
+
+
+.formulario {
+	width: 50%;
+	display: flex;
+	margin: auto;
+	padding: 20px;
+	flex-direction: column;
+}
+
+
+.formulario label {
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+
+.formulario input {
+	width: 75%;
+	height: 35px;
+	color: #FFFFFF;
+	outline: none;
+	padding: 0 0 0 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 5px;
+	border-color: #fa9d31;
+	background: linear-gradient( to left, #3e2f6b, #5f1f7a);
+}
+
+
+.formulario textarea {
+	width: 75%;
+	outline: none;
+	padding: 30px 0 0 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #fa9d31;
+	color: #ccc;
+	background: linear-gradient( to left, #3e2f6b, #5f1f7a);
+}
+
+
+.formulario input[type= 'submit']{
+	width: 50%;
+	margin-top: 30px;
+	cursor: pointer;
+	color: #FFFFFF;
+	border: none;
+	font-size: 16pt;
+	background-color: #a022d6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.rotape p {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: 15161b;
+}
+
+
+.rotape {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #15161b;
 }
 
 @keyframes slides {
