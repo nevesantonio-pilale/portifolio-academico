@@ -6,6 +6,7 @@
 		
 		<!-- Link css -->
 		<link rel= "stylesheet" type= "text/css" href="css/style.css"/>
+		<script src= "file.js"></script>
 		
 		<!-- Link de google fonts 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,8 +37,29 @@
 							<li> <a href= "index.html"> inicio </a></li>
 							<li> <a href= "#neves"> neves </a></li>
 							<li> <a href= "#projetos"> projectos academicos </a></li>
-							<li> <a href= "#contatos"> contactos </a></li>
+							<li> <a href= "#contato"> contactos </a></li>
 						</ul>
+					</div>
+				</div>
+				
+				<div class= "navbar-mobile">
+					<div id= "menu" class= "menu-nav-mobile">
+						<ul>
+							<li id= "li1"> <a onclick= "fecharMenu();" href= "index.html"> inicio </a></li>
+							<li id= "li2"> <a onclick= "fecharMenu();" href= "#neves"> neves </a></li>
+							<li id= "li3"> <a onclick= "fecharMenu();" href= "#projetos"> projectos academicos </a></li>
+							<li id= "li4"> <a onclick= "fecharMenu();" href= "#contato"> contactos </a></li>
+						</ul>
+					</div>
+					
+					<div class= "logo">
+						<div class= "img-logo">
+							<img src= "img/icon-logo.svg" alt= "icon de logo"/>
+						</div>
+						<div class= "titulo-logo">
+							<a id= "img-menu" class= "abrir" onclick= "abrirMenu();"><img src= "img/img-menu.svg"/> </a>
+							<a id= "img-close" class= "fechar" onclick= "closerMenu();"><img src= "img/img-close.svg"/> </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -314,6 +336,8 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
 		</section>
 		
 		<section id= "neves" class= "autor">
@@ -322,6 +346,10 @@
 					<div class= "cabecalho-descricao">
 						<h2> neves antónio </h2>
 						<h5> desenvolvedor web full stack </h5>
+						
+						<div class= "autor-mobile">
+							<img src= "img/foto-neves-meio-corpo.png"/>
+						</div>
 						<p>
 							Olá, sou Neves António, desenvolvedor web full stack, apaixonado pela tecnologia, e em particular no desenvolvimento de soluções web.
 							Me considero um profissional que gosta de novos desafios e cada vez mais esta em busca de aprendizagem para melhorar a resposta dos meus clientes na resolução dos seus problemas.<br><br>
@@ -337,7 +365,7 @@
 		</section>
 		
 		<section id= "contato">
-		<h2  class= "titulo-contacto"> Preenche o formuláario para falar com o Neves </h2>
+			<h2  class= "titulo-contacto"> Preenche o formuláario para falar com o Neves </h2>
 			<div class= "container">
 				<div class= "contato">
 					<form class= "formulario" Action= "#" Method= "POST">
